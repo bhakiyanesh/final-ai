@@ -1,0 +1,12 @@
+{
+  "name": "agent-api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "python -m uvicorn app.main:app --host 0.0.0.0 --port 4000 --reload",
+    "build": "echo \"FastAPI service has no build step\"",
+    "lint": "ruff check app tests",
+    "test": "pytest"
+  }
+}
+

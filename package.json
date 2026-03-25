@@ -1,0 +1,12 @@
+{
+  "name": "remittance-optimization",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:web": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "lint:web": "npm --prefix frontend run lint",
+    "test:web": "npm --prefix frontend test",
+    "test:backend": "cd backend && python -m pytest"
+  }
+}
